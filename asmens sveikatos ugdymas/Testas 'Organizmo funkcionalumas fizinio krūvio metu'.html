@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html dir="ltr" xml:lang="lt" class="yui3-js-enabled" lang="lt"><head>
+    <title>Testas "Organizmo funkcionalumas fizinio krūvio metu"</title>
+    <link rel="shortcut icon" href="https://2015r.vma.ktu.lt/theme/image.php/bcu/theme/1525439694/favicon">
+    <link href="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/font-awesome.css" rel="stylesheet">
+    <link href="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/css.css" rel="stylesheet" type="text/css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="moodle, Testas &quot;Organizmo funkcionalumas fizinio krūvio metu&quot;">
+<link rel="stylesheet" type="text/css" href="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/yui_combo.css"><script async="" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/analytics.js"></script><script async="" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/analytics.js"></script><script charset="utf-8" id="yui_3_17_2_1_1543626307321_15" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/flags.js" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1543626307321_114" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/yui_combo_003.php" async=""></script><link charset="utf-8" rel="stylesheet" id="yui_3_17_2_1_1543626307321_118" href="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/yui_combo_002.css"><script charset="utf-8" id="yui_3_17_2_1_1543626307321_119" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/yui_combo_005.php" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1543626307321_123" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/qengine.js" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1543626307321_124" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/module.js" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1543626307321_125" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/yui_combo_002.php" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1543626307321_127" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/yui_combo.php" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1543626307321_129" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/yui_combo_004.php" async=""></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/all.css">
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/2015r.vma.ktu.lt","sesskey":"8mFAg1to44","loadingicon":"https:\/\/2015r.vma.ktu.lt\/theme\/image.php\/bcu\/core\/1525439694\/i\/loading_small","themerev":"1525439694","slasharguments":1,"theme":"bcu","jsrev":"1525439694","admin":"admin","svgicons":true};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''};if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else me.path=component+'/'+component+'.'+me.type};
+YUI_config = {"debug":false,"base":"https:\/\/2015r.vma.ktu.lt\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/2015r.vma.ktu.lt\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/2015r.vma.ktu.lt\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/2015r.vma.ktu.lt\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/2015r.vma.ktu.lt\/theme\/yui_combo.php?m\/1525439694\/","combine":true,"comboBase":"https:\/\/2015r.vma.ktu.lt\/theme\/yui_combo.php?","ext":false,"root":"m\/1525439694\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-formautosubmit":{"requires":["base","event-key"]},"moodle-core-formchangechecker":{"requires":["base","event-focus"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core_availability-form":{"requires":["base","node","event","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-calendar-info":{"requires":["base","node","event-mouseenter","event-key","overlay","moodle-calendar-info-skin"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-toolboxes":{"requires":["node","base","event-key","node","io","moodle-course-coursebase","moodle-course-util"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-passwordunmask":{"requires":["node","base"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-core_message-messenger":{"requires":["escape","handlebars","io-base","moodle-core-notification-ajaxexception","moodle-core-notification-alert","moodle-core-notification-dialogue","moodle-core-notification-exception"]},"moodle-core_message-deletemessage":{"requires":["node","event"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_ddmarker-dd":{"requires":["node","event-resize","dd","dd-drop","dd-constrain","graphics"]},"moodle-qtype_ddmarker-form":{"requires":["moodle-qtype_ddmarker-dd","form_filepicker","graphics","escape"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-quizquestionbank":{"requires":["base","event","node","io","io-form","yui-later","moodle-question-qbankmanager","moodle-core-notification-dialogue"]},"moodle-mod_quiz-randomquestion":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-util":{"requires":["node"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-block_navigation-navigation":{"requires":["base","io-base","node","event-synthetic","event-delegate","json-parse"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bsgrid-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_htmlplus-codemirror":{"requires":["moodle-atto_htmlplus-codemirror-skin"]},"moodle-atto_htmlplus-beautify":{},"moodle-atto_htmlplus-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_htmlplus-beautify","moodle-atto_htmlplus-codemirror","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_preview-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/2015r.vma.ktu.lt\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/2015r.vma.ktu.lt\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1525439694\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/2015r.vma.ktu.lt\/lib\/javascript.php\/1525439694\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker"]},"core_question_flags":{"name":"core_question_flags","fullpath":"https:\/\/2015r.vma.ktu.lt\/lib\/javascript.php\/1525439694\/question\/flags.js","requires":["base","dom","event-delegate","io-base"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdn.mathjax.org\/mathjax\/2.5-latest\/MathJax.js?delayStartupUntil=configured"},"core_question_engine":{"name":"core_question_engine","fullpath":"https:\/\/2015r.vma.ktu.lt\/lib\/javascript.php\/1525439694\/question\/qengine.js","requires":["node","event"]},"mod_quiz":{"name":"mod_quiz","fullpath":"https:\/\/2015r.vma.ktu.lt\/lib\/javascript.php\/1525439694\/mod\/quiz\/module.js","requires":["base","dom","event-delegate","event-key","core_question_engine","moodle-core-formchangechecker"]}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="core/first" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/first.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jqueryprivate" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/jquery-private.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/jquery-1_002.js"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({
+    config: ["Accessible.js", "Safe.js"],
+    errorSettings: { message: ["!"] },
+    skipStartupTypeset: true,
+    messageStyle: "none"
+});
+</script></head>
+
+<body id="page-mod-quiz-review" class="format-topics  path-mod path-mod-quiz gecko dir-ltr lang-lt yui-skin-sam yui3-skin-sam 2015r-vma-ktu-lt pagelayout-incourse course-2197 context-204443 cmid-113520 category-43 two-column  has-region-side-post used-region-side-post side-post-only  jsenabled pace-done"><div class="pace  pace-inactive"><div class="pace-progress" style="transform: translate3d(100%, 0px, 0px);" data-progress-text="100%" data-progress="99">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div>
+
+<div class="skiplinks"><a class="skip" href="#maincontent">Praleisti į pagrindinį turinį</a></div>
+<script type="text/javascript" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/yui_combo_006.php"></script><div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""></div><script type="text/javascript" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/jquery-1.js"></script>
+<script type="text/javascript" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/pace-min.js"></script>
+<script type="text/javascript" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/jquery-flexslider-min.js"></script>
+<script type="text/javascript" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/jquery-easing-min.js"></script>
+<script type="text/javascript" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/custom.js"></script>
+<script type="text/javascript" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/javascript-static.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66284740-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10980043-15', 'ktu.lt');
+  ga('send', 'pageview');
+</script>
+<div id="page" class="container-fluid ">
+    
+<div class="customalert">
+<div class="container">
+<p>Visais probleminiais MOODLE klausimais prašome rašyti <u>moodle@ktu.lt</u>.
+</p></div>
+</div>
+
+<header id="page-header-wrapper">
+    <div id="above-header">
+        <div class="clearfix container userhead">
+            <div class="pull-left">
+                <ul class="usermenu2 nav navbar-nav navbar-right"><li><a title="Žinutės" target="_self" href="https://2015r.vma.ktu.lt/message/index.php"><i class="fa fa-comments"> </i>Žinutės</a></li></ul> 
+            </div>
+            <div class="headermenu row">
+                                    <div class="dropdown secondone">
+                        <a class="dropdown-toggle usermendrop" data-toggle="dropdown" data-target=".secondone"><span class="fa fa-user"></span>Linas Opulskis <span class="fa fa-angle-down"></span></a>
+                        <ul class="dropdown-menu usermen" role="menu">
+                                                            <li><a href="https://2015r.vma.ktu.lt/my" title="My Dashboard"><i class="fa fa-dashboard"></i>Mano pagrindinis</a></li>
+                                                                                        <li><a href="https://2015r.vma.ktu.lt/user/profile.php" title="View profile"><i class="fa fa-user"></i>Peržiūrėti profilį</a></li>
+                                                                                        <li><a href="https://2015r.vma.ktu.lt/user/preferences.php" title="Preferences"><i class="fa fa-cog"></i>Nuostatos</a></li>
+                                                                        
+                                                                        <li><a href="https://2015r.vma.ktu.lt/calendar/view.php" title="Calendar"><i class="fa fa-calendar"></i>Kalendorius</a></li>
+                                                        <li><a href="https://2015r.vma.ktu.lt/login/logout.php" title="Log out"><i class="fa fa-lock"></i>Atsijungti</a></li>
+                        </ul>
+                    </div>
+                            </div>      
+        </div>
+    </div>
+    <div id="page-header" class="clearfix container">
+                    <a href="https://2015r.vma.ktu.lt/"><img src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/KTU-logo-ilgas_baltas_permatomas_Moodle_BCU_temai3_black.png" alt="logo" id="logo"></a>     
+   
+         <div id="coursetitle" class="pull-left">
+     <span title="B710B195 Asmens sveikatos ugdymas Irina Klizienė (nuolatinės, LT)">B710B195 Asmens sveikatos ugdymas Irina Klizienė (nuolatinės, LT)</span>
+     </div>
+     
+        <div class="searchbox">
+            <form action="https://2015r.vma.ktu.lt/course/search.php">
+                <label class="hidden" for="search-1" style="display: none;">Search iCity</label>
+                <div class="search-box grey-box bg-white clear-fix">
+                    <input placeholder="Ieškoti kursų" accesskey="6" class="search_tour bg-white no-border left search-box__input ui-autocomplete-input" type="text" name="search" id="search-1" autocomplete="off">
+                    <button type="submit" class="no-border bg-white pas search-box__button"><abbr class="fa fa-search"></abbr></button>
+                </div>
+            </form>
+        </div>
+                  
+        <div id="course-header">
+                    </div>
+    </div>
+
+
+    <div id="navwrap">
+        <div class="container">
+            <div class="navbar">
+                <nav role="navigation" class="navbar-inner">
+                    <div class="container-fluid">
+                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                        <div class="nav-collapse collapse ">
+                            <ul class="nav"><li><a title="Mano pagrindinis" target="_self" href="https://2015r.vma.ktu.lt/my/index.php"><i class="fa fa-dashboard"></i> Mano pagrindinis</a></li><li class="dropdown"><a href="https://2015r.vma.ktu.lt/my/index.php" class="dropdown-toggle" data-toggle="dropdown" title="Mano kursai"><i class="fa fa-briefcase"></i><span class="menutitle">Mano kursai</span></a><ul class="dropdown-menu"><li><a title="P175B119_R_D_L" target="_self" href="https://2015r.vma.ktu.lt/course/view.php?id=833">P175B119 Informacinės technologijos (ruduo2015, nuolatinės, LT)</a></li><li><a title="P175B505_Antanas_Lenkevičius_A_L" target="_self" href="https://2015r.vma.ktu.lt/course/view.php?id=1964">P175B505 Kompiuterinė grafika Antanas Lenkevičius (LT)</a></li><li><a title="P175B118_Vacius_Jusas_D_L" target="_self" href="https://2015r.vma.ktu.lt/course/view.php?id=1960">P175B118 Objektinis programavimas I Vacius Jusas (nuolatinės, LT)</a></li><li><a title="P130B001_Regina_Novikienė_R_D_L" target="_self" href="https://2015r.vma.ktu.lt/course/view.php?id=772">P130B001 Matematika 1 Regina Novikienė (ruduo, nuolatinės, LT)</a></li><li><a title="B710B195_Irina_Klizienė_D_L" target="_self" href="https://2015r.vma.ktu.lt/course/view.php?id=2197">B710B195 Asmens sveikatos ugdymas Irina Klizienė (nuolatinės, LT)</a></li><li><a title="S264B001_Rosita_Lekavičienė_D_L" target="_self" href="https://2015r.vma.ktu.lt/course/view.php?id=2303">S264B001 Taikomoji psichologija Rosita Lekavičienė (nuolatinės, LT)</a></li><li><a title="MOODLE_studentams" target="_self" href="https://2015r.vma.ktu.lt/course/view.php?id=1637">Studentams apie MOODLE ir e. studijas</a></li><li><a title="Akreditacija" target="_self" href="https://2015r.vma.ktu.lt/course/view.php?id=3515">Akreditacija</a></li></ul></li><li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Šis kursas"><i class="fa fa-sitemap"></i><span class="menutitle">Šis kursas</span></a><ul class="dropdown-menu"><li><a title="Dalyviai" target="_self" href="https://2015r.vma.ktu.lt/user/index.php?id=2197"><i class="fa fa-users"></i>Dalyviai</a></li><li><a title="Įverčiai" target="_self" href="https://2015r.vma.ktu.lt/grade/report/index.php?id=2197"><img class="icon" alt="" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/grades.svg">Įverčiai</a></li><li><a target="_self" href="https://2015r.vma.ktu.lt/mod/forum/index.php?id=2197"><img src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/icon_002.svg" class="icon" alt="">Forumai</a></li><li><a target="_self" href="https://2015r.vma.ktu.lt/course/resources.php?id=2197"><img class="icon" alt="" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/icon.svg">Ištekliai</a></li><li><a target="_self" href="https://2015r.vma.ktu.lt/mod/quiz/index.php?id=2197"><img src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/icon_003.svg" class="icon" alt="">Testai</a></li></ul></li></ul>                            <ul class="nav"></ul>                            <ul class="nav"><li class="dropdown"><a href="#" class="dropdown-toggle ktu_button" data-toggle="dropdown" title="MANO KTU"><i class="fa ktu_icon"> </i>MANO KTU</a><ul class="dropdown-menu"><li class="dropdown-submenu"><a href="#cm_submenu_4" class="dropdown-toggle" data-toggle="dropdown" title="lt">MOODLE archyvai</a><ul class="dropdown-menu"><li><a title="2015 m. pavasario semestras" target="_self" href="http://2015p.vma.ktu.lt/login/index.php">2015 m. pavasario semestras</a></li><li><a title="2014 m. rudens semestras" target="_self" href="http://2014r.vma.ktu.lt/login/index.php">2014 m. rudens semestras</a></li><li><a title="2014 m. pavasario semestras" target="_self" href="http://2014p.vma.ktu.lt/login/index.php">2014 m. pavasario semestras</a></li><li><a title="2013 m.&nbsp;rudens&nbsp;semestras" target="_self" href="http://2013r.vma.ktu.lt/login/index.php">2013 m.&nbsp;rudens&nbsp;semestras</a></li><li><a title="2013 m. pavasario&nbsp;semestras" target="_self" href="http://2013p.vma.ktu.lt/login/index.php">2013 m. pavasario&nbsp;semestras</a></li></ul></li><li class="dropdown-submenu"><a href="#cm_submenu_5" class="dropdown-toggle" data-toggle="dropdown" title="lt">Kitos KTU sistemos</a><ul class="dropdown-menu"><li><a title="Intranetas" target="_blank" href="https://dvs.ktu.lt/">Intranetas</a></li><li><a title="KTU E.paštas" target="_blank" href="https://pastas.ktu.lt/">KTU E.paštas</a></li><li><a title="Office365" target="_blank" href="https://ktuedu.sharepoint.com/SitePages/Pagrindinis.aspx">Office365</a></li><li><a title="Akademinė IS" target="_blank" href="https://uais.cr.ktu.lt/ktuis/">Akademinė IS</a></li></ul></li></ul></li></ul>
+                            <ul class="nav pull-right">
+                                <ul class="nav"><li class="dropdown langmenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Kalba"><i class="fa fa-flag"></i><span class="langdesc">Lietuvių ‎(lt)‎</span></a><ul class="dropdown-menu"><li><a title="English ‎(en)‎" target="_self" href="https://2015r.vma.ktu.lt/mod/quiz/review.php?attempt=165684&amp;lang=en">English ‎(en)‎</a></li><li><a title="Lietuvių ‎(lt)‎" target="_self" href="https://2015r.vma.ktu.lt/mod/quiz/review.php?attempt=165684&amp;lang=lt">Lietuvių ‎(lt)‎</a></li><li><a title="Русский ‎(ru)‎" target="_self" href="https://2015r.vma.ktu.lt/mod/quiz/review.php?attempt=165684&amp;lang=ru">Русский ‎(ru)‎</a></li></ul></li></ul>                                <li class="hbl"><a href="#" class="moodlezoom"><i class="fa fa-indent fa-lg"></i> <span class="zoomdesc">Slėpti blokus</span></a></li>
+                                <li class="sbl"><a href="#" class="moodlezoom"><i class="fa fa-outdent fa-lg"></i> <span class="zoomdesc">Rodyti blokus</span></a></li>
+                                <li class="hbll"><a href="#" class="moodlewidth"><i class="fa fa-expand fa-lg"></i> <span class="zoomdesc">Viso ekrano režimas</span></a></li>
+                                <li class="sbll"><a href="#" class="moodlewidth"><i class="fa fa-compress fa-lg"></i> <span class="zoomdesc">Standartinis vaizdas</span></a></li>
+                            </ul>
+                            <div id="edittingbutton" class="pull-right breadcrumb-button"></div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container outercont">
+    <div id="page-content" class="row-fluid">
+    <div id="page-navbar" class="span12">
+        <span class="accesshide">Puslapio kelias</span><ul class="breadcrumb"><li><a href="https://2015r.vma.ktu.lt/" class="firstli"><i class="fa fa-home"></i><span class="arrow-top"></span><span class="arrow-bottom"></span></a> <span class="divider">/</span></li><li><a title="B710B195 Asmens sveikatos ugdymas Irina Klizienė (nuolatinės, LT)" href="https://2015r.vma.ktu.lt/course/view.php?id=2197">B710B195 Asmens sveikatos ugdymas Irina Klizienė (nuolatinės, LT)<span class="arrow-top"></span><span class="arrow-bottom"></span></a> <span class="divider">/</span></li><li><span tabindex="0" class="spnlink">Organizmo funkcionalumas fizinio krūvio metu / The body's functionality during exercise<span class="arrow-top"></span><span class="arrow-bottom"></span></span> <span class="divider">/</span></li><li class="lastli"><a title="Testas" href="https://2015r.vma.ktu.lt/mod/quiz/view.php?id=113520">Testas "Organizmo funkcionalumas fizinio krūvio metu"<span class="arrow-top"></span><span class="arrow-bottom"></span></a></li></ul>    </div>
+                <section id="region-main" class="span9 desktop-first-column ">
+            <div role="main"><span id="maincontent"></span><table class="generaltable generalbox quizreviewsummary"><tbody><tr><th class="cell" scope="row">Pradėta</th><td class="cell">Penktadienis, 2015 gruodžio 11, 14:09 </td></tr><tr><th class="cell" scope="row">Būsena</th><td class="cell">Baigta</td></tr><tr><th class="cell" scope="row">Baigta</th><td class="cell">Penktadienis, 2015 gruodžio 11, 14:11 </td></tr><tr><th class="cell" scope="row">Sugaišta laiko</th><td class="cell">2 min. 13 sek.</td></tr><tr><th class="cell" scope="row">Įvertis</th><td class="cell"><b>10.00</b> iš maks. 10.00 (<b>100</b>%)</td></tr></tbody></table><form action="https://2015r.vma.ktu.lt/mod/quiz/review.php?attempt=165684" method="post" class="questionflagsaveform" autocomplete="off" id="yui_3_17_2_1_1543626307321_142"><div><div id="q1" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Klausimas <span class="qno">1</span></h3><div class="state">Teisinga</div><div class="grade">Balas 1.00 iš 1.00</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1543626307321_24"><input type="hidden" name="q187247:1_:flagged" value="0"><input type="hidden" value="qaid=923801&amp;qubaid=187247&amp;qid=108349&amp;slot=1&amp;checksum=70775793c42138a35f11f41021c16a3f&amp;sesskey=8mFAg1to44&amp;newstate=" class="questionflagpostdata">
+<input type="hidden" class="questionflagvalue" id="q187247:1_:flaggedcheckbox" name="q187247:1_:flagged" value="0"><input type="image" class="questionflagimage" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/unflagged.png" title="Spustelėkite, kad pažymėtumėte šį klausimą vėliavėle" alt="Nepažymėta vėliavėle"><span class="questionflagtext" title="Spustelėkite, kad pažymėtumėte šį klausimą vėliavėle">Pažymėti klausimą</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Klausimo tekstas</h4><input type="hidden" name="q187247:1_:sequencecheck" value="3"><div class="qtext"><p></p><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><b><span style="font-size:12.0pt;
+font-family:&quot;Times New Roman&quot;,serif">1. Kas yra širdies susitraukimo dažnis ir
+kokios jo ribos ramybėje?</span></b></p><br><p></p></div><div class="ablock"><div class="prompt">Pasirinkite vieną:</div><div class="answer"><div class="r0"><input type="radio" name="q187247:1_answer" disabled="disabled" value="0" id="q187247:1_answer0"><label for="q187247:1_answer0">a. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">širdis
+varinėja kraują po visą kūną, ramybėje jis yra 70-90 tv./min</span> </p></label></div>
+<div class="r1 correct"><input type="radio" name="q187247:1_answer" disabled="disabled" value="1" id="q187247:1_answer1" checked="checked"><label for="q187247:1_answer1">b. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">širdis
+išstumia kraują į kraujagysles, kuris atsimuša į kraujagyslių sieneles ir
+sukelia jų bangavimą – tai bus širdies susitraukimo dažnis, kuris ramybėje yra
+60-80 tv./min</span> <img src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/grade_correct.svg" alt="Teisinga" class="questioncorrectnessicon"></p></label></div>
+<div class="r0"><input type="radio" name="q187247:1_answer" disabled="disabled" value="2" id="q187247:1_answer2"><label for="q187247:1_answer2">c. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">kraujo
+spaudimas (slėgis) į kraujagyslių sieneles, kuris ramybėje yra 60-80 tv./min</span> </p></label></div>
+</div></div></div></div></div><div id="q2" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Klausimas <span class="qno">2</span></h3><div class="state">Teisinga</div><div class="grade">Balas 1.00 iš 1.00</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1543626307321_33"><input type="hidden" name="q187247:2_:flagged" value="0"><input type="hidden" value="qaid=923802&amp;qubaid=187247&amp;qid=108350&amp;slot=2&amp;checksum=7efd9f62e38117cca044d8d2b454f263&amp;sesskey=8mFAg1to44&amp;newstate=" class="questionflagpostdata">
+<input type="hidden" class="questionflagvalue" id="q187247:2_:flaggedcheckbox" name="q187247:2_:flagged" value="0"><input type="image" class="questionflagimage" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/unflagged.png" title="Spustelėkite, kad pažymėtumėte šį klausimą vėliavėle" alt="Nepažymėta vėliavėle"><span class="questionflagtext" title="Spustelėkite, kad pažymėtumėte šį klausimą vėliavėle">Pažymėti klausimą</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Klausimo tekstas</h4><input type="hidden" name="q187247:2_:sequencecheck" value="3"><div class="qtext"><p></p><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><b><span style="font-size:12.0pt;
+font-family:&quot;Times New Roman&quot;,serif">2. Kaip nustatyti ištvermės pratimo
+(važiavimas dviračiu, bėgimas ir kiti) intensyvumą?</span></b></p><br><p></p></div><div class="ablock"><div class="prompt">Pasirinkite vieną:</div><div class="answer"><div class="r0 correct"><input type="radio" name="q187247:2_answer" disabled="disabled" value="0" id="q187247:2_answer0" checked="checked"><label for="q187247:2_answer0">a. <span style="font-size:12.0pt;line-height:107%;
+font-family:&quot;Times New Roman&quot;,serif">pagal širdies susitraukimo dažnį: 55</span><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Times New Roman&quot;,serif" lang="EN-US">% - 90% nuo </span><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Times New Roman&quot;,serif">didžiausio širdies
+susitraukimo dažnio</span></label> <img src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/grade_correct.svg" alt="Teisinga" class="questioncorrectnessicon"></div>
+<div class="r1"><input type="radio" name="q187247:2_answer" disabled="disabled" value="1" id="q187247:2_answer1"><label for="q187247:2_answer1">b. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">kaip
+draugas pataria</span> </p></label></div>
+<div class="r0"><input type="radio" name="q187247:2_answer" disabled="disabled" value="2" id="q187247:2_answer2"><label for="q187247:2_answer2">c. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">tiesiog
+kaip pačiam atrodo tokiu intensyvumu ir atlikti pratimą</span> </p></label></div>
+</div></div></div></div></div><div id="q3" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Klausimas <span class="qno">3</span></h3><div class="state">Teisinga</div><div class="grade">Balas 1.00 iš 1.00</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1543626307321_42"><input type="hidden" name="q187247:3_:flagged" value="0"><input type="hidden" value="qaid=923803&amp;qubaid=187247&amp;qid=108351&amp;slot=3&amp;checksum=395d0b0965bb439c3bd8aa359e34662d&amp;sesskey=8mFAg1to44&amp;newstate=" class="questionflagpostdata">
+<input type="hidden" class="questionflagvalue" id="q187247:3_:flaggedcheckbox" name="q187247:3_:flagged" value="0"><input type="image" class="questionflagimage" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/unflagged.png" title="Spustelėkite, kad pažymėtumėte šį klausimą vėliavėle" alt="Nepažymėta vėliavėle"><span class="questionflagtext" title="Spustelėkite, kad pažymėtumėte šį klausimą vėliavėle">Pažymėti klausimą</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Klausimo tekstas</h4><input type="hidden" name="q187247:3_:sequencecheck" value="3"><div class="qtext"><p></p><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><b><span style="font-size:12.0pt;
+font-family:&quot;Times New Roman&quot;,serif">3. Kodėl kai kalbama apie širdies ir
+kraujagyslių sistemą rekomenduojamas reguliarus ištvermės fizinis krūvis?</span></b></p><br><p></p></div><div class="ablock"><div class="prompt">Pasirinkite vieną:</div><div class="answer"><div class="r0 correct"><input type="radio" name="q187247:3_answer" disabled="disabled" value="0" id="q187247:3_answer0" checked="checked"><label for="q187247:3_answer0">a. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">stiprėja
+širdies raumuo dėl raumens sienelės storėjimo, todėl retėja pulsas</span> <img src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/grade_correct.svg" alt="Teisinga" class="questioncorrectnessicon"></p></label></div>
+<div class="r1"><input type="radio" name="q187247:3_answer" disabled="disabled" value="1" id="q187247:3_answer1"><label for="q187247:3_answer1">b. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">retėja
+pulsas</span> </p></label></div>
+<div class="r0"><input type="radio" name="q187247:3_answer" disabled="disabled" value="2" id="q187247:3_answer2"><label for="q187247:3_answer2">c. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">keičiasi
+visos raumenų grupės</span> </p></label></div>
+</div></div></div></div></div><div id="q4" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Klausimas <span class="qno">4</span></h3><div class="state">Teisinga</div><div class="grade">Balas 1.00 iš 1.00</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1543626307321_51"><input type="hidden" name="q187247:4_:flagged" value="0"><input type="hidden" value="qaid=923804&amp;qubaid=187247&amp;qid=108352&amp;slot=4&amp;checksum=b8ad6a26240470b2befdc7fbd6d98d9d&amp;sesskey=8mFAg1to44&amp;newstate=" class="questionflagpostdata">
+<input type="hidden" class="questionflagvalue" id="q187247:4_:flaggedcheckbox" name="q187247:4_:flagged" value="0"><input type="image" class="questionflagimage" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/unflagged.png" title="Spustelėkite, kad pažymėtumėte šį klausimą vėliavėle" alt="Nepažymėta vėliavėle"><span class="questionflagtext" title="Spustelėkite, kad pažymėtumėte šį klausimą vėliavėle">Pažymėti klausimą</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Klausimo tekstas</h4><input type="hidden" name="q187247:4_:sequencecheck" value="3"><div class="qtext"><p></p><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><b><span style="font-size:12.0pt;
+font-family:&quot;Times New Roman&quot;,serif">4. Kaip veikia kvėpavimo sistemą
+reguliarus fizinis krūvis?</span></b></p><br><p></p></div><div class="ablock"><div class="prompt">Pasirinkite vieną:</div><div class="answer"><div class="r0"><input type="radio" name="q187247:4_answer" disabled="disabled" value="0" id="q187247:4_answer0"><label for="q187247:4_answer0">a. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">didėja
+plaučiai</span> </p></label></div>
+<div class="r1"><input type="radio" name="q187247:4_answer" disabled="disabled" value="1" id="q187247:4_answer1"><label for="q187247:4_answer1">b. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">dažniau
+įkvepiama ir iškvepiama</span> </p></label></div>
+<div class="r0 correct"><input type="radio" name="q187247:4_answer" disabled="disabled" value="2" id="q187247:4_answer2" checked="checked"><label for="q187247:4_answer2">c. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">didėja
+deguonies suvartojimas</span> <img src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/grade_correct.svg" alt="Teisinga" class="questioncorrectnessicon"></p></label></div>
+</div></div></div></div></div><div id="q5" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Klausimas <span class="qno">5</span></h3><div class="state">Teisinga</div><div class="grade">Balas 1.00 iš 1.00</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1543626307321_60"><input type="hidden" name="q187247:5_:flagged" value="0"><input type="hidden" value="qaid=923805&amp;qubaid=187247&amp;qid=108353&amp;slot=5&amp;checksum=424df52c56d44ed3063e453186af1e3e&amp;sesskey=8mFAg1to44&amp;newstate=" class="questionflagpostdata">
+<input type="hidden" class="questionflagvalue" id="q187247:5_:flaggedcheckbox" name="q187247:5_:flagged" value="0"><input type="image" class="questionflagimage" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/unflagged.png" title="Spustelėkite, kad pažymėtumėte šį klausimą vėliavėle" alt="Nepažymėta vėliavėle"><span class="questionflagtext" title="Spustelėkite, kad pažymėtumėte šį klausimą vėliavėle">Pažymėti klausimą</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Klausimo tekstas</h4><input type="hidden" name="q187247:5_:sequencecheck" value="3"><div class="qtext"><p></p><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><b><span style="font-size:12.0pt;
+font-family:&quot;Times New Roman&quot;,serif">5. Koks fizinio krūvio intensyvumas didina
+mąstymo procesus?</span></b></p><br><p></p></div><div class="ablock"><div class="prompt">Pasirinkite vieną:</div><div class="answer"><div class="r0"><input type="radio" name="q187247:5_answer" disabled="disabled" value="0" id="q187247:5_answer0"><label for="q187247:5_answer0">a. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">didelis
+fizinio krūvio intensyvumas</span> </p></label></div>
+<div class="r1 correct"><input type="radio" name="q187247:5_answer" disabled="disabled" value="1" id="q187247:5_answer1" checked="checked"><label for="q187247:5_answer1">b. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">visi
+fizinio krūvio intensyvumai (mažas, vidutinis, didelis) gerina mąstymo procesus</span> <img src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/grade_correct.svg" alt="Teisinga" class="questioncorrectnessicon"></p></label></div>
+<div class="r0"><input type="radio" name="q187247:5_answer" disabled="disabled" value="2" id="q187247:5_answer2"><label for="q187247:5_answer2">c. mažas ir vidutinis fizinio krūvio intensyvumas</label> </div>
+</div></div></div></div></div><div id="q6" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Klausimas <span class="qno">6</span></h3><div class="state">Teisinga</div><div class="grade">Balas 1.00 iš 1.00</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1543626307321_69"><input type="hidden" name="q187247:6_:flagged" value="0"><input type="hidden" value="qaid=923806&amp;qubaid=187247&amp;qid=108354&amp;slot=6&amp;checksum=39135772f15d6f2d354b915e993062b7&amp;sesskey=8mFAg1to44&amp;newstate=" class="questionflagpostdata">
+<input type="hidden" class="questionflagvalue" id="q187247:6_:flaggedcheckbox" name="q187247:6_:flagged" value="0"><input type="image" class="questionflagimage" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/unflagged.png" title="Spustelėkite, kad pažymėtumėte šį klausimą vėliavėle" alt="Nepažymėta vėliavėle"><span class="questionflagtext" title="Spustelėkite, kad pažymėtumėte šį klausimą vėliavėle">Pažymėti klausimą</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Klausimo tekstas</h4><input type="hidden" name="q187247:6_:sequencecheck" value="3"><div class="qtext"><p></p><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><b><span style="font-size:12.0pt;
+font-family:&quot;Times New Roman&quot;,serif">6. Kodėl nėra rekomenduojamas tik
+koncentrinis raumens susitraukimo režimas, kai kalbame apie sveikatinimo
+programą?</span></b></p><br><p></p></div><div class="ablock"><div class="prompt">Pasirinkite vieną:</div><div class="answer"><div class="r0"><input type="radio" name="q187247:6_answer" disabled="disabled" value="0" id="q187247:6_answer0"><label for="q187247:6_answer0">a. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">raumuo
+ilgėja ir ilgina amplitudes per sąnarius</span> </p></label></div>
+<div class="r1 correct"><input type="radio" name="q187247:6_answer" disabled="disabled" value="1" id="q187247:6_answer1" checked="checked"><label for="q187247:6_answer1">b. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">raumuo
+įgyja jėgą ir kietėja, kas trumpina amplitudes per sąnarius</span> <img src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/grade_correct.svg" alt="Teisinga" class="questioncorrectnessicon"></p></label></div>
+<div class="r0"><input type="radio" name="q187247:6_answer" disabled="disabled" value="2" id="q187247:6_answer2"><label for="q187247:6_answer2">c. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">raumuo
+įgyja jėgą ir kietėja, kas ilgina amplitudes per sąnarius</span> </p></label></div>
+</div></div></div></div></div><div id="q7" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Klausimas <span class="qno">7</span></h3><div class="state">Teisinga</div><div class="grade">Balas 1.00 iš 1.00</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1543626307321_78"><input type="hidden" name="q187247:7_:flagged" value="0"><input type="hidden" value="qaid=923807&amp;qubaid=187247&amp;qid=108356&amp;slot=7&amp;checksum=e44fc7998ea2121b4e2509d885332dff&amp;sesskey=8mFAg1to44&amp;newstate=" class="questionflagpostdata">
+<input type="hidden" class="questionflagvalue" id="q187247:7_:flaggedcheckbox" name="q187247:7_:flagged" value="0"><input type="image" class="questionflagimage" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/unflagged.png" title="Spustelėkite, kad pažymėtumėte šį klausimą vėliavėle" alt="Nepažymėta vėliavėle"><span class="questionflagtext" title="Spustelėkite, kad pažymėtumėte šį klausimą vėliavėle">Pažymėti klausimą</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Klausimo tekstas</h4><input type="hidden" name="q187247:7_:sequencecheck" value="3"><div class="qtext"><p></p><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><b><span style="font-size:12.0pt;
+font-family:&quot;Times New Roman&quot;,serif">7. Kiek mažiausiai turi dalyvauti raumenų grupių, kad atliktų bet kokį judesį?</span></b></p><br><p></p></div><div class="ablock"><div class="prompt">Pasirinkite vieną:</div><div class="answer"><div class="r0 correct"><input type="radio" name="q187247:7_answer" disabled="disabled" value="0" id="q187247:7_answer0" checked="checked"><label for="q187247:7_answer0">a. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">2</span> <img src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/grade_correct.svg" alt="Teisinga" class="questioncorrectnessicon"></p></label></div>
+<div class="r1"><input type="radio" name="q187247:7_answer" disabled="disabled" value="1" id="q187247:7_answer1"><label for="q187247:7_answer1">b. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">3</span> </p></label></div>
+<div class="r0"><input type="radio" name="q187247:7_answer" disabled="disabled" value="2" id="q187247:7_answer2"><label for="q187247:7_answer2">c. <span style="font-size:12.0pt;line-height:107%;
+font-family:&quot;Times New Roman&quot;,serif">10</span></label> </div>
+</div></div></div></div></div><div id="q8" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Klausimas <span class="qno">8</span></h3><div class="state">Teisinga</div><div class="grade">Balas 1.00 iš 1.00</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1543626307321_87"><input type="hidden" name="q187247:8_:flagged" value="0"><input type="hidden" value="qaid=923808&amp;qubaid=187247&amp;qid=108357&amp;slot=8&amp;checksum=50823003127b5484d582a05f44e78814&amp;sesskey=8mFAg1to44&amp;newstate=" class="questionflagpostdata">
+<input type="hidden" class="questionflagvalue" id="q187247:8_:flaggedcheckbox" name="q187247:8_:flagged" value="0"><input type="image" class="questionflagimage" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/unflagged.png" title="Spustelėkite, kad pažymėtumėte šį klausimą vėliavėle" alt="Nepažymėta vėliavėle"><span class="questionflagtext" title="Spustelėkite, kad pažymėtumėte šį klausimą vėliavėle">Pažymėti klausimą</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Klausimo tekstas</h4><input type="hidden" name="q187247:8_:sequencecheck" value="3"><div class="qtext"><p></p><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><b><span style="font-size:12.0pt;
+font-family:&quot;Times New Roman&quot;,serif">8. Kas keičiasi kaulinėje sistemoje, kai
+turime tik jėgos treniruotes?</span></b></p><br><p></p></div><div class="ablock"><div class="prompt">Pasirinkite vieną:</div><div class="answer"><div class="r0"><input type="radio" name="q187247:8_answer" disabled="disabled" value="0" id="q187247:8_answer0"><label for="q187247:8_answer0">a. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">kaulai
+tampa tvirti, bet lengvi, geriau aprūpinami krauju</span> </p></label></div>
+<div class="r1"><input type="radio" name="q187247:8_answer" disabled="disabled" value="1" id="q187247:8_answer1"><label for="q187247:8_answer1">b. <span style="font-size:12.0pt;line-height:107%;
+font-family:&quot;Times New Roman&quot;,serif">kompaktinio sluoksnio pakitimai mažesni, jis beveik nesustorėja, kaulo
+diametras nepakinta</span></label> </div>
+<div class="r0 correct"><input type="radio" name="q187247:8_answer" disabled="disabled" value="2" id="q187247:8_answer2" checked="checked"><label for="q187247:8_answer2">c. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">dėl
+kaulo kompaktinio sluoksnio sustorėjimo sumažėja kaulų čiulpų ertmė, kartais ji
+gali visai išnykti, kaulas tampa itin stiprus</span> <img src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/grade_correct.svg" alt="Teisinga" class="questioncorrectnessicon"></p></label></div>
+</div></div></div></div></div><div id="q9" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Klausimas <span class="qno">9</span></h3><div class="state">Teisinga</div><div class="grade">Balas 1.00 iš 1.00</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1543626307321_96"><input type="hidden" name="q187247:9_:flagged" value="0"><input type="hidden" value="qaid=923809&amp;qubaid=187247&amp;qid=108358&amp;slot=9&amp;checksum=c1c2ca6c540525f0a6a6de7e24a951e4&amp;sesskey=8mFAg1to44&amp;newstate=" class="questionflagpostdata">
+<input type="hidden" class="questionflagvalue" id="q187247:9_:flaggedcheckbox" name="q187247:9_:flagged" value="0"><input type="image" class="questionflagimage" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/unflagged.png" title="Spustelėkite, kad pažymėtumėte šį klausimą vėliavėle" alt="Nepažymėta vėliavėle"><span class="questionflagtext" title="Spustelėkite, kad pažymėtumėte šį klausimą vėliavėle">Pažymėti klausimą</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Klausimo tekstas</h4><input type="hidden" name="q187247:9_:sequencecheck" value="3"><div class="qtext"><p></p><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><b><span style="font-size:12.0pt;
+font-family:&quot;Times New Roman&quot;,serif">9. Kiek kartų per savaitę galima atlikti
+tempimo pratimus?</span></b></p><br><p></p></div><div class="ablock"><div class="prompt">Pasirinkite vieną:</div><div class="answer"><div class="r0"><input type="radio" name="q187247:9_answer" disabled="disabled" value="0" id="q187247:9_answer0"><label for="q187247:9_answer0">a. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">3
+dienas savaitėje<b></b></span> </p></label></div>
+<div class="r1"><input type="radio" name="q187247:9_answer" disabled="disabled" value="1" id="q187247:9_answer1"><label for="q187247:9_answer1">b. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">2
+dienas savaitėje</span> </p></label></div>
+<div class="r0 correct"><input type="radio" name="q187247:9_answer" disabled="disabled" value="2" id="q187247:9_answer2" checked="checked"><label for="q187247:9_answer2">c. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">visas
+7 dienas savaitėje</span> <img src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/grade_correct.svg" alt="Teisinga" class="questioncorrectnessicon"></p></label></div>
+</div></div></div></div></div><div id="q10" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Klausimas <span class="qno">10</span></h3><div class="state">Teisinga</div><div class="grade">Balas 1.00 iš 1.00</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_17_2_1_1543626307321_105"><input type="hidden" name="q187247:10_:flagged" value="0"><input type="hidden" value="qaid=923810&amp;qubaid=187247&amp;qid=108359&amp;slot=10&amp;checksum=684d4714916b02acc5549429895272d2&amp;sesskey=8mFAg1to44&amp;newstate=" class="questionflagpostdata">
+<input type="hidden" class="questionflagvalue" id="q187247:10_:flaggedcheckbox" name="q187247:10_:flagged" value="0"><input type="image" class="questionflagimage" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/unflagged.png" title="Spustelėkite, kad pažymėtumėte šį klausimą vėliavėle" alt="Nepažymėta vėliavėle"><span class="questionflagtext" title="Spustelėkite, kad pažymėtumėte šį klausimą vėliavėle">Pažymėti klausimą</span></div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Klausimo tekstas</h4><input type="hidden" name="q187247:10_:sequencecheck" value="3"><div class="qtext"><p></p><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><b><span style="font-size:12.0pt;
+font-family:&quot;Times New Roman&quot;,serif">10. Kiek rekomenduojama laikyti sekundžių
+ir atlikti kartojimų tempiant raumenį?</span></b></p><br><p></p></div><div class="ablock"><div class="prompt">Pasirinkite vieną:</div><div class="answer"><div class="r0"><input type="radio" name="q187247:10_answer" disabled="disabled" value="0" id="q187247:10_answer0"><label for="q187247:10_answer0">a. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">10-15
+sek, 2-4 kartojimų</span> </p></label></div>
+<div class="r1 correct"><input type="radio" name="q187247:10_answer" disabled="disabled" value="1" id="q187247:10_answer1" checked="checked"><label for="q187247:10_answer1">b. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">15-30
+sek, 2-4 kartojimų</span> <img src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/grade_correct.svg" alt="Teisinga" class="questioncorrectnessicon"></p></label></div>
+<div class="r0"><input type="radio" name="q187247:10_answer" disabled="disabled" value="2" id="q187247:10_answer2"><label for="q187247:10_answer2">c. <br><p style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">7-10
+sek, 1-2 kartojimus</span> </p></label></div>
+</div></div></div></div></div><input type="hidden" name="sesskey" value="8mFAg1to44"><div class="submitbtns"></div></div></form><div class="submitbtns"><a href="https://2015r.vma.ktu.lt/mod/quiz/view.php?id=113520">Baigti peržiūrą</a></div></div>        </section>
+        <aside id="block-region-side-post" class="span3 block-region" data-blockregion="side-post" data-droptarget="1"><a class="skip skip-block" id="fsb-1" href="#sb-1">Praleisti Testo naršymas</a><div class="block block_fake" id="mod_quiz_navblock" role="navigation" aria-labelledby="mod_quiz_navblock_title" data-block="_fake"><div class="header"><div class="title"><div class="block_action"></div><h2><span id="mod_quiz_navblock_title">Testo naršymas</span></h2></div></div><div class="content"><div class="qn_buttons clearfix allquestionsononepage"><a class="qnbutton correct free thispage" id="quiznavbutton1" title="Teisinga" data-quiz-page="0" href="#"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Klausimas </span>1<span class="accesshide"> Šiame puslapyje <span class="flagstate"></span></span></a><a class="qnbutton correct free thispage" id="quiznavbutton2" title="Teisinga" data-quiz-page="0" href="#q2"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Klausimas </span>2<span class="accesshide"> Šiame puslapyje <span class="flagstate"></span></span></a><a class="qnbutton correct free thispage" id="quiznavbutton3" title="Teisinga" data-quiz-page="0" href="#q3"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Klausimas </span>3<span class="accesshide"> Šiame puslapyje <span class="flagstate"></span></span></a><a class="qnbutton correct free thispage" id="quiznavbutton4" title="Teisinga" data-quiz-page="0" href="#q4"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Klausimas </span>4<span class="accesshide"> Šiame puslapyje <span class="flagstate"></span></span></a><a class="qnbutton correct free thispage" id="quiznavbutton5" title="Teisinga" data-quiz-page="0" href="#q5"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Klausimas </span>5<span class="accesshide"> Šiame puslapyje <span class="flagstate"></span></span></a><a class="qnbutton correct free thispage" id="quiznavbutton6" title="Teisinga" data-quiz-page="0" href="#q6"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Klausimas </span>6<span class="accesshide"> Šiame puslapyje <span class="flagstate"></span></span></a><a class="qnbutton correct free thispage" id="quiznavbutton7" title="Teisinga" data-quiz-page="0" href="#q7"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Klausimas </span>7<span class="accesshide"> Šiame puslapyje <span class="flagstate"></span></span></a><a class="qnbutton correct free thispage" id="quiznavbutton8" title="Teisinga" data-quiz-page="0" href="#q8"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Klausimas </span>8<span class="accesshide"> Šiame puslapyje <span class="flagstate"></span></span></a><a class="qnbutton correct free thispage" id="quiznavbutton9" title="Teisinga" data-quiz-page="0" href="#q9"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Klausimas </span>9<span class="accesshide"> Šiame puslapyje <span class="flagstate"></span></span></a><a class="qnbutton correct free thispage" id="quiznavbutton10" title="Teisinga" data-quiz-page="0" href="#q10"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Klausimas </span>10<span class="accesshide"> Šiame puslapyje <span class="flagstate"></span></span></a></div><div class="othernav"><a href="https://2015r.vma.ktu.lt/mod/quiz/view.php?id=113520">Baigti peržiūrą</a></div></div></div><span class="skip-block-to" id="sb-1"></span></aside>    </div>
+    </div>
+
+    
+<footer id="page-footer">
+    <div id="course-footer"></div>
+        <div class="container">
+        <div class="row-fluid">
+                        <div class="left-col span3" id="contactdetails">
+                <h3 title="">Rekvizitai / Details</h3>
+                <p><span style="color:#999999;"><b>įmonės kodas 111950581
+  </b>
+  </span>
+</p>
+<p><span style="color:#999999;"><b>PVM mokėtojo kodas LT119505811
+  </b>
+  </span>
+</p>
+
+<p><span style="color:#999999;"><b>adresas K. Donelaičio g. 73, LT-44249 Kaunas
+  </b>
+  </span>
+</p>
+
+<p><span style="color:#999999;"><b>tel. +370 37 300 000, +370 37 300 421
+  </b>
+  </span>
+</p>
+
+<p><span style="color:#999999;"><b>faks. +370 37 324 144
+  </b>
+  </span>
+</p>
+
+<p><span style="color:#999999;"><b>e. p. ktu@ktu.lt
+  </b>
+  </span>
+</p>            </div>
+                                    <div class="left-col span3" id="footer-faculties">
+                <h3 title="">Pagalba / Help</h3>
+                <a href="https://moodle.ktu.edu/mod/page/view.php?id=92513"><span style="color:#999999;"></span></a>
+<a href="https://moodle.ktu.edu/mod/page/view.php?id=92510"><span style="color:#999999;">Pagalba dėstytojams</span>
+  </a>
+<p></p>
+<a href="https://moodle.ktu.edu/mod/page/view.php?id=115311&amp;lang=en"><span style="color:#999999;"></span></a>
+<a href="https://moodle.ktu.edu/mod/page/view.php?id=115311&amp;lang=lt"><span style="color:#999999;">Pagalba studentams
+</span>
+</a>
+
+<a href="https://moodle.ktu.edu/mod/page/view.php?id=92511">
+</a>
+<hr><p></p>
+<span style="color:#999999;">KTU MOODLE prižiūri E. mokymosi technologijų centras.&nbsp;
+
+</span><p></p>
+<span style="color:#999999;">Visais probleminiais klausimais prašome rašyti moodle@ktu.lt.&nbsp;</span>
+            </div>
+                                    <div class="left-col span3" id="social-connect">
+                <h3 title="">MOODLE archyvai / MOODLE archives</h3>
+                <p><a href="http://2015p.vma.ktu.lt/" target="_blank" rel="noreferrer"><span style="color:#999999;"><b>2015 m. pavasario semestras</b></span></a>
+</p>
+<p><a href="http://2014r.vma.ktu.lt/" target="_blank" rel="noreferrer"><span style="color:#999999;"><b>2014 m. rudens semestras</b></span></a>
+</p>
+<p><a href="http://2014p.vma.ktu.lt/" target="_blank" rel="noreferrer"><span style="color:#999999;"><b>2014 m. pavasario semestras</b></span></a>
+</p>
+<p><a href="http://2013r.vma.ktu.lt/" target="_blank" rel="noreferrer"><span style="color:#999999;"><b>2013 m. rudens semestras</b></span></a>
+</p>
+<p><a href="http://2013p.vma.ktu.lt/" target="_blank" rel="noreferrer"><span style="color:#999999;"><b>2013 m. pavasario semestras</b></span></a>
+</p>            </div>
+                                    <div class="left-col span3">
+                <h3 title=""></h3>
+                <p style="text-align:left;"><a href="http://ktu.edu/" target="_blank" rel="noreferrer"><span style="color:#999999;"><b>KTU.EDU</b></span></a>
+</p>
+<p style="text-align:left;"><a href="http://ktu.edu/lt/kontaktai" target="_blank" rel="noreferrer"><span style="color:#999999;"><b>Kontaktų paieška</b></span></a>
+  <a href="http://ktu.edu/en/contacts" target="_blank" rel="noreferrer"><span style="color:#999999;"><b>
+    </b>
+    </span>
+  </a>
+</p>
+<p style="text-align:left;"><a href="https://dvs.ktu.lt/" target="_blank" rel="noreferrer"><span style="color:#999999;"><b>Intranetas</b></span></a>
+</p>
+<p style="text-align:left;"><a href="https://pastas.ktu.lt/" target="_blank" rel="noreferrer"><span style="color:#999999;"><b>KTU E. paštas</b></span></a>
+</p>
+<p style="text-align:left;"><a href="https://ktuedu.sharepoint.com/SitePages/Pagrindinis.aspx" target="_blank" rel="noreferrer"><span style="color:#999999;"><b>Office365</b></span></a>
+</p>
+<p style="text-align:left;"><span style="color:#999999;"><b><a href="https://uais.cr.ktu.lt/ktuis/" target="_blank" rel="noreferrer"><span style="color:#999999;">Akademinė IS</span>
+  </a>
+  </b>
+  </span>
+</p>            </div>
+                    </div>
+    </div>
+            <div class="info container2 clearfix">
+        <div class="container">
+            <div class="row-fluid">
+                <div class="span7">
+                    <div class="footnote"><p>
+</p>
+<div class="atto_bsgrid container-fluid">
+  <div class="row-fluid">
+    <div class="col-md-6 span6">
+      <p>© Kauno technologijos universitetas
+      </p>
+    </div>
+    <div class="col-md-6 span6">
+      <p style="text-align: right;">
+        <a href="https://www.facebook.com/ktu.lt" target="_blank">
+          <img src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/social_Facebook_KTU_footer.png" alt="KTU Facebook page" style="" class="img-responsive" width="38" height="36">
+        </a>
+        <a href="https://twitter.com/KTUnews" target="_blank">
+          <img src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/social_Twitter_KTU_footer.png" alt="KTU Twitter" style="" class="img-responsive" width="38" height="36">
+        </a>
+        <a href="https://www.youtube.com/user/ktuvideo" target="_blank">
+          <img src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/social_Youtube_KTU_footer.png" alt="KTU Youtube" style="" class="img-responsive" width="38" height="36">
+        </a>
+        <a href="https://www.linkedin.com/company/ktu" target="_blank">
+          <img src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/social_Linkedin_KTU_footer.png" alt="KTU LinkedIn" style="" class="img-responsive" width="38" height="36">
+        </a>
+        <a href="http://instagram.com/ktuspace" target="_blank">
+          <img src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/social_Instagram_KTU_footer.png" alt="KTU Instagram" style="" class="img-responsive" width="38" height="36">
+        </a>
+      </p>
+    </div>
+  </div>
+</div></div>                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+<a class="back-to-top" href="#top" title="Scroll to top" style="display: none;"></a>
+    <script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://2015r.vma.ktu.lt/lib/requirejs.php/1525439694/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://2015r.vma.ktu.lt/lib/javascript.php/1525439694/lib/jquery/jquery-1.11.3.min',
+        jqueryui: 'https://2015r.vma.ktu.lt/lib/javascript.php/1525439694/lib/jquery/ui-1.11.4/jquery-ui.min',
+        jqueryprivate: 'https://2015r.vma.ktu.lt/lib/javascript.php/1525439694/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/require.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });
+});
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+M.yui.add_module({"core_question_engine":{"name":"core_question_engine","fullpath":"https:\/\/2015r.vma.ktu.lt\/lib\/javascript.php\/1525439694\/question\/qengine.js","requires":["node","event"]},"mod_quiz":{"name":"mod_quiz","fullpath":"https:\/\/2015r.vma.ktu.lt\/lib\/javascript.php\/1525439694\/mod\/quiz\/module.js","requires":["base","dom","event-delegate","event-key","core_question_engine","moodle-core-formchangechecker"]}});
+
+//]]>
+</script>
+<script type="text/javascript" src="Testas%20'Organizmo%20funkcionalumas%20fizinio%20kr%C5%ABvio%20metu'_files/footer"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Paskutin\u012f kart\u0105 modifikuota","name":"Vardas","error":"Klaida","info":"Informacija","ok":"Gerai","cancel":"At\u0161aukti","changesmadereallygoaway":"J\u016bs padar\u0117te pakeitimus. Ar J\u016bs tikras, kad norite palikti \u0161\u012f puslap\u012f ir prarasti juos?","morehelp":"Daugiau \u017einyno","loadinghelp":"\u012ekeliama...","yes":"Taip","confirm":"Patvirtinti","no":"Ne","areyousure":"Ar J\u016bs tikras?","closebuttontitle":"U\u017edaryti","unknownerror":"Ne\u017einoma klaida"},"repository":{"type":"Tipas","size":"Dydis","invalidjson":"Klaidinga JSON eilut\u0117","nofilesattached":"Fail\u0173 neprid\u0117ta","filepicker":"Failo parinkiklis","logout":"Atsijungti","nofilesavailable":"N\u0117ra galim\u0173 fail\u0173","norepositoriesavailable":"Atsipra\u0161ome, bet n\u0117 viena i\u0161 dabartini\u0173 saugykl\u0173 negali gr\u0105\u017einti fail\u0173 reikalaujamu formatu.","fileexistsdialogheader":"Failas egzistuoja","fileexistsdialog_editor":"Failas su tokiu vardu jau yra prikabintas prie teksto kur\u012f j\u016bs redaguojate.","fileexistsdialog_filemanager":"Failas su tokiu vardu jau yra prikabintas","renameto":"Pervardyti \u012f","referencesexist":"\u010cia yra {$a} susiet\u0173\/nurodyt\u0173 fail\u0173, kurie naudoja \u0161\u012f fail\u0105 kaip \u0161altin\u012f","select":"Pasirinkti"},"block":{"addtodock":"Perkelti tai \u012f dok\u0105","undockitem":"Atjungti \u0161\u012f element\u0105","dockblock":"Suma\u017einti {$a} blok\u0105","undockblock":"Padidinti {$a} blok\u0105","undockall":"Atjungti visk\u0105","hidedockpanel":"Sl\u0117pti bloko skydel\u012f","hidepanel":"Sl\u0117pti skydel\u012f"},"langconfig":{"thisdirectionvertical":"btt"},"question":{"flagged":"Pa\u017eym\u0117ta v\u0117liav\u0117l\u0117"},"quiz":{"functiondisabledbysecuremode":"\u0160is funkcionalumas \u0161iuo metu i\u0161jungtas","startattempt":"Prad\u0117ti bandym\u0105","timesup":"Laikas baig\u0117si!"},"admin":{"confirmation":"Patvirtinimas"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {M.util.load_flowplayer();
+setTimeout("fix_column_widths()", 20);
+Y.use("moodle-core-dock-loader",function() {M.core.dock.loader.initLoader();
+});
+ M.util.js_pending('random5c01de424eca91'); Y.use('core_question_flags', function(Y) { M.core_question_flags.init(Y, "https:\/\/2015r.vma.ktu.lt\/question\/toggleflag.php", [{"src":"https:\/\/2015r.vma.ktu.lt\/theme\/image.php\/bcu\/core\/1525439694\/i\/unflagged","title":"Spustel\u0117kite, kad pa\u017eym\u0117tum\u0117te \u0161\u012f klausim\u0105 v\u0117liav\u0117le","alt":"Nepa\u017eym\u0117ta v\u0117liav\u0117le"},{"src":"https:\/\/2015r.vma.ktu.lt\/theme\/image.php\/bcu\/core\/1525439694\/i\/flagged","title":"Spustel\u0117kite, kad panaikintum\u0117te \u0161io klausimo \u017eym\u0117jim\u0105 v\u0117liav\u0117le","alt":"Pa\u017eym\u0117ta v\u0117liav\u0117l\u0117"}], ["Pa\u017eym\u0117ti klausim\u0105","Nuimti pa\u017eym\u0117jim\u0105"]);  M.util.js_complete('random5c01de424eca91'); });
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"MathJax.Hub.Config({\r\n    config: [\"Accessible.js\", \"Safe.js\"],\r\n    errorSettings: { message: [\"!\"] },\r\n    skipStartupTypeset: true,\r\n    messageStyle: \"none\"\r\n});\r\n","lang":"en"});
+});
+Y.use("moodle-filter_glossary-autolinker",function() {M.filter_glossary.init_filter_autolinking({"courseid":0});
+});
+ M.util.js_pending('random5c01de424eca92'); Y.use('mod_quiz', function(Y) { M.mod_quiz.nav.init(Y);  M.util.js_complete('random5c01de424eca92'); });
+Y.use("moodle-theme_bcu-zoom",function() {M.theme_bcu.zoom.init();
+});
+Y.use("moodle-theme_bcu-full",function() {M.theme_bcu.full.init();
+});
+M.util.help_popups.setup(Y);
+Y.use("moodle-core-popuphelp",function() {M.core.init_popuphelp();
+});
+M.util.init_skiplink(Y);
+ M.util.js_pending('random5c01de424eca95'); Y.use('mod_quiz', function(Y) { M.mod_quiz.init_review_form(Y);  M.util.js_complete('random5c01de424eca95'); });
+ M.util.js_pending('random5c01de424eca96'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random5c01de424eca96'); });
+})();
+//]]>
+</script>
+
+</div>
+
+
+</body></html>
